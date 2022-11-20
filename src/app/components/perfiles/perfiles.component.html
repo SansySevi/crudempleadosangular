@@ -1,0 +1,22 @@
+<div>
+    <table class="table" *ngIf="empleado">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Apellido</th>
+                <th>Oficio</th>
+                <th>Salario</th>
+                <th>Director</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <td> {{empleado.idEmpleado}} </td>
+                <td> {{empleado.apellido}} </td>
+                <td> {{empleado.oficio}} </td>
+                <td> {{empleado.salario}} </td>
+                <td> {{empleado.director}} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
